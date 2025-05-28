@@ -1,0 +1,17 @@
+lst = []
+arq = open("arquivos/arquivosEx4.txt", "r")
+linha = arq.readline()
+while linha != '':
+  lst.append(int(linha))
+  linha = arq.readline()
+arq.close()
+print(lst)
+Soma = sum(lst)
+print(f'soma dos valores: {Soma}')
+qtde = len(lst)
+print(f'Quantidade de valores: {qtde}')
+print(f'média dos valores: {Soma/ qtde}')
+minimo = min(lst)
+print(f'Mínimo: {minimo}')
+Máximo = max(lst)
+print(f'Máximo: {Máximo}')

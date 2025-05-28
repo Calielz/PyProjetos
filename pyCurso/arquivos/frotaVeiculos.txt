@@ -1,0 +1,2 @@
+TUNG;tung;sahur;tung;123;sahur
+BOMBARDILO;crocodillo;crocodillo;sla;111;sla

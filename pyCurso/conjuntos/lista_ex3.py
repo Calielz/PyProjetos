@@ -1,0 +1,6 @@
+P = int(input("digite o primeiro termo: "))
+R = int(input("digite a razão: "))
+Q = int(input("digite a quantidade: "))
+ultimo = P + R * (Q-1)
+Termos = list(range(P, ultimo+1, R ))
+print(Termos)
