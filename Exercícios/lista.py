@@ -42,6 +42,12 @@
 #   else:
 #     return 'essa palavra não é um palíndromo'
 
+def Fatorial(N):
+    if N <= 1:
+      return 1
+    else:
+      print(N)
+      return N * Fatorial(N-1)
 
     
 
@@ -70,6 +76,9 @@
 
 # palavra = input("informe uma palavra: ")
 # print(palindromo(palavra))
+
+numb = int(input("Informe um número: "))
+print(f'o fatorial de {numb} é: {Fatorial(numb)}')
 
 
 
