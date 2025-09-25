@@ -12,7 +12,6 @@ conjunto = { 45.4, 1.6, 65.2, 15.6 }
 for c in conjunto:
   print(c)
 
-print("sksks")
 conjunto = {45.4, 15.6,65.2, 1.6}
 for c in conjunto:
   print(c)
